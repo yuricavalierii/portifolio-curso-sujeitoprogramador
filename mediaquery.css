@@ -1,0 +1,58 @@
+/* RESPONSIVIDADE */
+
+@media (max-width:1100px) {
+
+    /* INICIO MAIN' */
+    .section-caixa h1{
+        font-size: 45px;
+    }
+
+    .section-caixa p{
+        font-size: 18px;
+    }
+    /* FIM MAIN */
+
+    /* INICIO SOBRE */ 
+    .sobre-caixa{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0; 
+    }
+
+    .sobre-caixa div{
+        max-width: 80%;
+    }
+
+    .sobre-caixa div h2{
+        font-size: 45px;
+    }
+
+    .sobre-caixa img{
+        padding-top: 35px;
+        max-width: 80%;
+    }
+    /* FIM SOBRE */
+
+    /* INICIO PROJETOS */
+    .caixa-fotos-projetos img{
+        width: 32%;
+    }
+    /* FIM PROJETOS */
+
+    /* INICIO RODAPE */
+    .caixa-footer{
+        flex-direction: column;
+    }
+
+    .caixa-footer a{
+        padding-right: 0;
+        font-size: 25px;
+    }
+
+    .caixa-footer p{
+        padding-top: 10px;
+    }
+
+}
